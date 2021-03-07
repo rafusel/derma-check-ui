@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/opticus-ui/static/css/main.7b5fe1b3.chunk.css",
-    "main.js": "/opticus-ui/static/js/main.1edd7609.chunk.js",
-    "main.js.map": "/opticus-ui/static/js/main.1edd7609.chunk.js.map",
+    "main.js": "/opticus-ui/static/js/main.84125227.chunk.js",
+    "main.js.map": "/opticus-ui/static/js/main.84125227.chunk.js.map",
     "runtime-main.js": "/opticus-ui/static/js/runtime-main.5b154ad1.js",
     "runtime-main.js.map": "/opticus-ui/static/js/runtime-main.5b154ad1.js.map",
     "static/css/2.015dc0ab.chunk.css": "/opticus-ui/static/css/2.015dc0ab.chunk.css",
-    "static/js/2.e66e90a6.chunk.js": "/opticus-ui/static/js/2.e66e90a6.chunk.js",
-    "static/js/2.e66e90a6.chunk.js.map": "/opticus-ui/static/js/2.e66e90a6.chunk.js.map",
+    "static/js/2.32065387.chunk.js": "/opticus-ui/static/js/2.32065387.chunk.js",
+    "static/js/2.32065387.chunk.js.map": "/opticus-ui/static/js/2.32065387.chunk.js.map",
     "index.html": "/opticus-ui/index.html",
     "static/css/2.015dc0ab.chunk.css.map": "/opticus-ui/static/css/2.015dc0ab.chunk.css.map",
     "static/css/main.7b5fe1b3.chunk.css.map": "/opticus-ui/static/css/main.7b5fe1b3.chunk.css.map",
-    "static/js/2.e66e90a6.chunk.js.LICENSE.txt": "/opticus-ui/static/js/2.e66e90a6.chunk.js.LICENSE.txt",
+    "static/js/2.32065387.chunk.js.LICENSE.txt": "/opticus-ui/static/js/2.32065387.chunk.js.LICENSE.txt",
     "static/media/glasses.74c74b1c.jpg": "/opticus-ui/static/media/glasses.74c74b1c.jpg",
     "static/media/measure.89a77160.jpg": "/opticus-ui/static/media/measure.89a77160.jpg",
     "static/media/paper.ae0ddd8e.jpg": "/opticus-ui/static/media/paper.ae0ddd8e.jpg"
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.5b154ad1.js",
     "static/css/2.015dc0ab.chunk.css",
-    "static/js/2.e66e90a6.chunk.js",
+    "static/js/2.32065387.chunk.js",
     "static/css/main.7b5fe1b3.chunk.css",
-    "static/js/main.1edd7609.chunk.js"
+    "static/js/main.84125227.chunk.js"
   ]
 }
