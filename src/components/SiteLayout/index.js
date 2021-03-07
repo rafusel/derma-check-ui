@@ -32,7 +32,7 @@ export default function SiteLayout(props) {
           </Menu.Item>
         </Menu>
       </Header>
-      <Content className="w-100">
+      <Content className="w-100 mh-100">
         {props.children}
       </Content>
     </Layout>
