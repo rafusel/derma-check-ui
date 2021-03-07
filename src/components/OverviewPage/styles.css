@@ -13,3 +13,12 @@
 .padding-for-text {
   padding: 0 20px 0 20px;
 }
+
+.padding-for-text p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.padding-for-text h2 {
+  font-size: 30px;
+}
