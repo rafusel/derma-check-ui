@@ -25,11 +25,6 @@ export default function SiteLayout(props) {
               Measure
             </Link>
           </Menu.Item>
-          <Menu.Item key="3">
-            <Link to="/about">
-              About
-            </Link>
-          </Menu.Item>
         </Menu>
       </Header>
       <Content className="w-100 mh-100">

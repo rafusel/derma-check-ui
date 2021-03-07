@@ -5,7 +5,6 @@ import {
 } from 'react-router-dom';
 
 import OverviewPage from '../OverviewPage';
-import AboutPage from '../AboutPage';
 import MeasurePage from '../MeasurePage';
 import SiteLayout from '../SiteLayout';
 
@@ -16,9 +15,6 @@ function App() {
         <Switch>
           <Route path="/measure">
             <MeasurePage />
-          </Route>
-          <Route path="/about" >
-            <AboutPage />
           </Route>
           <Route path="/">
             <OverviewPage />
