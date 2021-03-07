@@ -1,11 +1,14 @@
 import { Upload, message, Button, Modal } from 'antd';
 import { FileImageOutlined, SyncOutlined } from '@ant-design/icons';
 import { useState, Fragment } from 'react';
+import postMeasure from '../../util/axios';
 
 const { Dragger } = Upload;
 
 export default function MeasurePage(props) {
   const [uploadIcon, setUploadIcon] = useState(<FileImageOutlined />)
+  const [templeWidth, setTempleWidth] = useState(null);
+  const [noseBridgeWidth, setNoseBridgeWidth] = useState(null);
 
   const uploadProps = {
     name: 'file',
@@ -25,16 +28,17 @@ export default function MeasurePage(props) {
         setUploadIcon(<FileImageOutlined />);
       }
     },
-    customRequest(requestProps) {
+    customRequest: async (requestProps) => {
       const formData = new FormData();
       const imageFile = requestProps.file;
       formData.append("file", imageFile);
-      // axios.post('upload_file', formData, {
-      //     headers: {
-      //       'Content-Type': 'multipart/form-data'
-      //     }
-      // })
-      requestProps.onSuccess();
+      const measurements = await postMeasure(formData);
+      if (measurements) {
+        setTempleWidth(measurements[0]);
+        setNoseBridgeWidth(measurements[1]);
+        return requestProps.onSuccess();
+      }
+      return requestProps.onError()
     },
   };
 
