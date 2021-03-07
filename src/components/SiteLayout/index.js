@@ -7,7 +7,7 @@ const { Header, Content } = Layout;
 
 export default function SiteLayout(props) {
   return (
-    <Layout>
+    <Layout className="w-100">
       <Header>
         <div className="logo" >
           <EyeOutlined spin />
@@ -32,7 +32,7 @@ export default function SiteLayout(props) {
           </Menu.Item>
         </Menu>
       </Header>
-      <Content>
+      <Content className="w-100">
         {props.children}
       </Content>
     </Layout>
